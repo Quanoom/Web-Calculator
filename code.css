@@ -38,6 +38,14 @@ button:active{
     background-color:blanchedalmond;
     font-size:30px;
 }
+.operation:hover{
+    color:blue;
+    background-color:cornflowerblue;
+}
+.operation:active{
+    color:cadetblue;
+    background-color:mintcream;
+}
 .box{
     position:absolute;
     margin-top:-100px;
