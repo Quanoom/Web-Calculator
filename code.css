@@ -1,0 +1,75 @@
+body{
+    background-color:beige;
+}
+.parent{
+    background-color:darkgray;
+    text-align:left;
+    margin-left:400px;
+    margin-right: 400px;
+    padding-top:100px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right: 5px;
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 5px;
+    border-radius:10px;
+    border-inline:1px solid white;
+}
+button{
+    background-color:darksalmon;
+    color:darkblue;
+    font-size:20px;
+    font-family: arial;
+    border:1px solid black;
+    border-radius:10px;
+    text-align:center;
+}
+button:hover{
+    color:black;
+    background-color: white;
+}
+button:active{
+    color:white;
+    background-color: black;
+}
+.operation{
+    color:green;
+    background-color:blanchedalmond;
+    font-size:30px;
+}
+.box{
+    position:absolute;
+    margin-top:-100px;
+}
+.result_1{
+    margin-top:40px;
+    font-size:25px;
+    margin-bottom:0px;
+}
+.input{
+    margin-top:2px;
+    font-size:15px;
+    font-family: var(--text-type);
+}
+h1{
+    color:dimgray;
+    font: size 35px;
+    font-family:blinkMacSystemFont;
+    text-align:center;
+    margin-bottom:0px;
+}
+.text{
+    color:crimson;
+    text-align:center;
+    margin-top:5px;
+    font-size:12px;
+    font-family: tahoma;
+}
+pre{
+    text-align:center;
+    margin-left:-10px;
+    font-size:10px;
+    font-family: cursive;
+    color:purple;
+}
